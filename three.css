@@ -1,0 +1,172 @@
+@media screen and (max-width: 480px) {
+    
+    
+    
+     main{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 200px);
+            gap: 10px;
+            grid-template-areas: 
+                "a a a b b b"
+                "c c c d d d"
+                "e e e f f f"
+                "g g g h h h"
+                " i i i j j j"
+}
+
+
+    div{
+        background-color: yellow;
+    }
+
+
+
+    main :nth-child(1){
+        grid-area: a;
+    }
+    main :nth-child(2){
+        grid-area: b;
+    }
+    main:nth-child(3){
+        grid-area: c;
+    }
+    main :nth-child(4){
+        grid-area: d;
+    }
+    main:nth-child(5){
+        grid-area: e;
+    }
+    main :nth-child(6){
+        grid-area: f;
+    }
+    main :nth-child(7){
+        grid-area: g;
+    }
+    main :nth-child(8){
+        grid-area: h;
+    }
+    main :nth-child(9){
+        grid-area: i;
+    }
+    main :nth-child(10){
+        grid-area: j;
+    }
+    main :nth-child(11){
+        grid-area: k;
+    }
+}
+@media screen and (min-width: 500px) {
+    
+    
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 100px);
+        gap: 10px;
+        grid-template-areas: 
+        "a a a b b b"
+        "c c c d d d"
+        "e e e f f f"
+        "g g g h h h"
+        "i i i j j j"
+    }
+
+    div{
+        background-color: blue;
+    }
+
+    main :nth-child(1){
+        grid-row: a;
+    }
+    main :nth-child(2){
+        grid-row: b;
+    }
+    main:nth-child(3){
+        grid-row: c;
+    }
+    main :nth-child(4){
+        grid-row: d;
+    }
+    main:nth-child(5){
+        grid-row: e;
+    }
+    main :nth-child(6){
+        grid-row: f;
+    }
+    main :nth-child(7){
+        grid-row: g;
+    }
+    main :nth-child(8){
+        grid-row: h;
+    }
+    main :nth-child(9){
+        grid-row: i;
+    }
+    main :nth-child(10){
+        grid-row: j;
+    }
+    main :nth-child(11){
+        grid-row: k;
+    }
+
+
+}
+@media screen and (min-width: 920px) {
+    
+    
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 100px);
+        gap: 10px;
+        grid-template-areas: 
+        "a a a b b b"
+        "c c c d d d"
+        "e e e f f f"
+        "g g g h h h"
+        "i i i j j j"
+    }
+
+    div{
+        background-color: red;
+    }
+
+    main :nth-child(1){
+        grid-row: a;
+    }
+    main :nth-child(2){
+        grid-row: b;
+    }
+    main:nth-child(3){
+        grid-row: c;
+    }
+    main :nth-child(4){
+        grid-row: d;
+    }
+    main:nth-child(5){
+        grid-row: e;
+    }
+    main :nth-child(6){
+        grid-row: f;
+    }
+    main :nth-child(7){
+        grid-row: g;
+    }
+    main :nth-child(8){
+        grid-row: h;
+    }
+    main :nth-child(9){
+        grid-row: i;
+    }
+    main :nth-child(10){
+        grid-row: j;
+    }
+    main :nth-child(11){
+        grid-row: k;
+    }
+
+
+}
